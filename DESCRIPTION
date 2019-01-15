@@ -1,0 +1,25 @@
+Package: bbplot
+Title: MAKING GGPLOT GRAPHICS IN BBC NEWS STYLE
+Version: 0.2
+Authors@R: c(
+    person("Nassos", "Stylianou", , "nassos.stylianou@bbc.co.uk", c("aut", "cre")),
+    person("Clara", "Guibourg", "clara.guibourg@bbc.co.uk", c("aut", "cre")),
+    person("Will", "Dahlgreen", "william.dahlgreen@bbc.co.uk", role = "aut"),
+    person("Robert", "Cuffe", "robert.cuffe@bbc.co.uk", role = "aut"),
+    person("Tom", "Calver", , role = "aut"),
+    person("Ransome", "Mpini", , role = "aut")
+    )
+Description: Helps create and export ggplot2 charts in the style used by 
+    the BBC News data team thanks to two useful functions, one for styling and another for exporting ggplot graphics
+Depends: R (>= 3.3.0)
+Imports:
+    ggplot2,
+    png,
+    grid,
+    ggpubr,
+    dplyr,
+    data.table
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
