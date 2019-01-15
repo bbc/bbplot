@@ -10,7 +10,7 @@ If you do not have the `devtools` package installed, you will have to run the fi
 
 ```
 # install.packages('devtools')
-devtools::install_github('bbc/bbplot2')
+devtools::install_github('bbc/bbplot')
 ```
 
 ## Using the functions
