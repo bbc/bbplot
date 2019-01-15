@@ -2,6 +2,9 @@
 
 This repo contains the functions of the `bbplot` package, which once installed locally, provides helpful functions for creating and exporting  graphics made in ggplot in the style used by the BBC News data team.
 
+![Histogram made using the bbplot package](chart_examples/histogram_bbplot.png)
+![Graphic of World Cup penalty shootout made using the bbplot package](chart_examples/penalties_bbplot.png)
+
 ## Installing bbplot
 
 `Bbplot` is not on CRAN, so you will have to install it directly from Github using `devtools`. 
