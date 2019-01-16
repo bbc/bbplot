@@ -19,7 +19,7 @@ devtools::install_github('bbc/bbplot')
 
 The package has two functions for plots: `bbc_style()` and `finalise_plot`.
 
-Detailed examples on how to use the functions included within the `bbplot` package to produce graphics are included in the [R cookbook](https://github.com/bbc/rcookbook), as well as a more general reference manual for working with `ggplot2`.
+Detailed examples on how to use the functions included within the `bbplot` package to produce graphics are included in the [R cookbook](https://bbc.github.io/rcookbook/), as well as a more general reference manual for working with `ggplot2`.
 
 A basic explanation and summary here:
 
