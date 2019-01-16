@@ -49,7 +49,7 @@ Here are the function arguments:
 * `save_filepath`: the precise filepath that you want your graphic to save to, including the `.png` extension at the end. This does depend on your working directory and if you are in a specific R project. An example of a relative filepath would be: `/charts/line_chart.png`.  
 * `width_pixels`: this is set to 640px by default, so only call this argument and specify the width you want your chart to be. 
 * `height_pixels`: this is set to 450px by default, so only call this argument and specify the height you want your chart to be. 
-* `logo_image_path`: this argument specifies the path for the image/logo in the bottom right corner of the plot. The default is for a placeholder image with a background that matches the background colour of the plot, so the default if you do not change this is for it to appear as if there is no logo. 
+* `logo_image_path`: this argument specifies the path for the image/logo in the bottom right corner of the plot. The default is for a placeholder PNG file with a background that matches the background colour of the plot, so do not specify the argument if you want it to appear without a logo. If you want to add your own logo, just specify the path to your PNG file. The package has been prepared with a wide and thin image in mind. 
 
 Example of how the `finalise_plot()` is used in a standard workflow. This function is called once you have created and finalised your chart data, titles and added the `bbc_style()` to it (see above):
 
