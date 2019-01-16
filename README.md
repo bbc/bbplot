@@ -6,7 +6,7 @@ This repo contains the functions of the `bbplot` package, which once installed l
 
 ## Installing bbplot
 
-`Bbplot` is not on CRAN, so you will have to install it directly from Github using `devtools`. 
+`bbplot` is not on CRAN, so you will have to install it directly from Github using `devtools`. 
 
 If you do not have the `devtools` package installed, you will have to run the first line in the code below as well. 
 
@@ -17,9 +17,9 @@ devtools::install_github('bbc/bbplot')
 
 ## Using the functions
 
-The package has two functions for plots, `bbcstyle()` and `finalise_plot`.
+The package has two functions for plots: `bbc_style()` and `finalise_plot`.
 
-Detailed examples on how to use the functions included within the `bbplot` package to produce graphics are included the [R cookbook](https://github.com/bbc/vjdata.rcookbook).
+Detailed examples on how to use the functions included within the `bbplot` package to produce graphics are included in the [R cookbook](https://github.com/bbc/rcookbook), as well as a more general reference manual for working with `ggplot2`.
 
 A basic explanation and summary here:
 
