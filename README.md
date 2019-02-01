@@ -55,7 +55,7 @@ Example of how the `finalise_plot()` is used in a standard workflow. This functi
 
 ```
 finalise_plot(plot_name = my_line_plot,
-source = "ONS",
+source = "Source: ONS",
 save_filepath = "filename_that_my_plot_should_be_saved_to-nc.png",
 width_pixels = 640,
 height_pixels = 550)
