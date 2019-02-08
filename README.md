@@ -32,10 +32,22 @@ The function is pretty basic and does not change or adapt based on the type of c
 Example of how it is used in a standard workflow:
 
 ```
-line <- ggplot(line_df, aes(x = year, y = lifeExp)) +
+# Create line_df data frame of life expectancy in the UK using gapminder data
+library(gapminder)
+library(dplyr)
+line_df <- gapminder %>% 
+  filter(country == "United Kingdom")
+
+# Create plot
+library(ggplot2)
+library(bbplot)
+my_line_plot <- ggplot(line_df, aes(x = year, y = lifeExp)) +
 geom_line(colour = "#007f7f", size = 1) +
 geom_hline(yintercept = 0, size = 1, colour="#333333") +
 bbc_style()
+
+# View plot
+my_line_plot
 ```
 ### `finalise_plot`
 
