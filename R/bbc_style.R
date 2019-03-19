@@ -1,15 +1,15 @@
-#' Add bbc theme to ggplot chart
+#' Add ssw theme to ggplot chart
 #'
-#' This function allows you to add the bbc theme to your ggplotgraphics.
-#' @keywords bbc_style
+#' This function allows you to add the ssw theme to your ggplotgraphics.
+#' @keywords ssw_style
 #' @export
 #' @examples
 #' line <- ggplot(line_df, aes(x = year, y = lifeExp)) +
 #' geom_line(colour = "#007f7f", size = 1) +
 #' geom_hline(yintercept = 0, size = 1, colour="#333333") +
-#' bbc_style()
+#' ssw_style()
 
-bbc_style <- function() {
+ssw_style <- function() {
   font <- "Helvetica"
 
   ggplot2::theme(
