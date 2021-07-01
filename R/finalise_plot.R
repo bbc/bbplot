@@ -31,6 +31,7 @@ create_footer <- function (source_name, logo_image_path, source_size) {
 #' It will left align your title, subtitle and source, add the BBC blocks at the bottom right and save it to your specified location.
 #' @param plot_name The variable name of the plot you have created that you want to format and save
 #' @param source_name The text you want to come after the text 'Source:' in the bottom left hand side of your side
+#' @param source_size The source text size font (Default: 12)
 #' @param save_filepath Exact filepath that you want the plot to be saved to
 #' @param width_pixels Width in pixels that you want to save your chart to - defaults to 640
 #' @param height_pixels Height in pixels that you want to save your chart to - defaults to 450
