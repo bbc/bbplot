@@ -15,7 +15,7 @@ left_align <- function(plot_name, pieces){
   return(grob)
 }
 
-create_footer <- function (source_name, logo_image_path, souce_size) {
+create_footer <- function (source_name, logo_image_path, source_size) {
   #Make the footer
   footer <- grid::grobTree(grid::linesGrob(x = grid::unit(c(0, 1), "npc"), y = grid::unit(1.1, "npc")),
                            grid::textGrob(source_name,
